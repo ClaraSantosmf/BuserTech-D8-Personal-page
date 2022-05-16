@@ -8,7 +8,6 @@ body {
   width: 90%;
   background-color: #fdfcdc;
   margin: auto;
-  height: 90%;
   margin-top: 10%;
   border: 10px solid #d9fdff;
   border-radius: 5%;
@@ -73,8 +72,23 @@ h2 {
 }
 
 .secctions {
+  border-radius: 4%;
+  padding: 4%;
+  box-sizing: border-box;
   background-color: #00afb9;
   margin: 2%;
   width: 45%;
-  height: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.secctions img {
+  width: 90%;
+}
+
+.experience {
+  height: 77%;
 }
