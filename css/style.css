@@ -14,10 +14,31 @@ body {
 }
 
 .FirtsNav {
-  background-color: #00aeb8;
   border-radius: 39% 36px 39% 5px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 5%;
   width: 100%;
-  height: 8%;
+  height: 5%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5261292016806722) 0%,
+    rgba(255, 255, 255, 0.9154849439775911) 34%,
+    rgba(51, 160, 179, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FirtsNav img {
+  width: 15%;
+}
+
+.FirtsNav p {
+  font-size: 20px;
+  margin-right: 5%;
 }
 
 .NameApresentation {
@@ -31,9 +52,23 @@ body {
 }
 
 .NameApresentation-Subtitle h1,
-h3 {
+.NameApresentation-Subtitle h2 {
   margin: 3% 0%;
   text-align: center;
+}
+
+.NameApresentation-Subtitle h1 {
+  font-size: 2em;
+}
+
+.NameApresentation-Subtitle h3 {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .NameApresentation-Subtitle h1 {
+    font-size: 25px;
+  }
 }
 
 img {
@@ -45,6 +80,7 @@ img {
 .Divisior {
   display: flex;
   width: 100%;
+  height: 5%;
   justify-content: center;
 }
 
@@ -52,14 +88,26 @@ img {
 .Bar2,
 .Bar3 {
   background-color: #00aeb8;
-  height: 0.3em;
+  height: 0.2em;
   border-radius: 5px;
   width: 6em;
-  margin: 3em;
+  margin: 2em 2em;
+}
+
+@media only screen and (max-width: 470px) {
+  .Bar1,
+  .Bar2,
+  .Bar3 {
+    margin: 1em 2em;
+  }
 }
 
 .Bar2 {
-  height: 0.4em;
+  height: 0.3em;
+}
+
+.Background-Divisor img {
+  margin: auto;
 }
 
 .Secction2 {
@@ -72,23 +120,88 @@ h2 {
 }
 
 .secctions {
+  padding: 0px;
   border-radius: 4%;
-  padding: 4%;
   box-sizing: border-box;
-  background-color: #00afb9;
+  background-color: #beddcf;
   margin: 2%;
-  width: 45%;
+  width: 20%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: 17px;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 470px) {
+  .secctions {
+    width: 45%;
+    padding: 4%;
+    font-size: 1em;
+  }
 }
 
 .secctions img {
-  width: 90%;
+  width: 40%;
+  margin: 5%;
+}
+
+.secctions .projects {
+  width: 52%;
+  margin: 2%;
+}
+
+.secctions .experience {
+  width: 50%;
+  height: 50%;
 }
 
 .experience {
   height: 77%;
+}
+
+.AboutMe p {
+  margin-left: 30%;
+  width: 60%;
+  font-size: 1.8em;
+}
+
+.AboutMe h3 {
+  color: #f07167;
+  margin-bottom: 3%;
+  font-size: 2em;
+  margin-left: 15%;
+}
+
+.Skills {
+  margin: auto;
+}
+
+.Skills-HTMLCSS {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Skills-Python {
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.Skills-DataBase {
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.Skills-ProgrammingLogic {
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+
+progress {
+  display: block;
+  width: 100%;
 }
