@@ -45,6 +45,8 @@ nav {
 
 .FirtsNav-Iconss a {
   width: 5px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .FirtsNav-Iconss img {
@@ -195,7 +197,6 @@ h3 {
 .Skills {
   font-family: "Montserrat Alternates";
   font-size: 1.5em;
-  text-align: justify;
   margin: 5%;
   margin-top: 0;
   display: flex;
@@ -216,7 +217,7 @@ h3 {
 .Skills-HTMLCSS {
   align-self: flex-start;
   margin-top: 5%;
-  width: 50%;
+  width: 60%;
 }
 
 .Skills-Python {
@@ -225,24 +226,36 @@ h3 {
   margin-top: 5%;
   margin-left: 10%;
   align-self: flex-end;
-  width: 50%;
+  text-align: end;
+  width: 60%;
+}
+
+.Skills-Python .progress-label {
+  display: flex;
+  align-items: flex-start;
 }
 
 .Skills-DataBase {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: 50%;
+  width: 60%;
   margin-top: 5%;
 }
 
 .Skills-SGSI {
-  width: 50%;
+  text-align: end;
+  width: 60%;
   margin-top: 5%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-self: flex-end;
+}
+
+.Skills-SGSI .progress-label {
+  display: flex;
+  align-items: flex-start;
 }
 
 progress {
@@ -267,4 +280,20 @@ li strong {
   font-size: 1em;
   margin-top: 5%;
   font-family: "Montserrat Alternates";
+}
+
+.Cars {
+  width: 100%;
+}
+
+.carrossel {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  align-self: flex-start;
+  border: 2px solid #f07167;
+}
+
+.carrossel img {
+  width: 60%;
 }
