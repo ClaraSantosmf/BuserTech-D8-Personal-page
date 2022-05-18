@@ -6,14 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Clara Santos</title>
   </head>
   <body>
     <div class="FixedContainer">
-      <div class="FirtsNav">
-        <img src="/img/backgroundSkills.png" />
-        <p>Contato</p>
-      </div>
+      <nav>
+        <div class="IconGraound">
+          <img src="/img/backgroundSkills.png" />
+        </div>
+        <div class="contacts">
+          <a
+            class="FirtsNav-Iconss"
+            href="https://www.instagram.com/clarasantosmf/"
+          >
+            <img src="./img/instagram.png" />
+          </a>
+          <a
+            class="FirtsNav-Iconss"
+            href="https://www.linkedin.com/in/clarasantosmf/"
+          >
+            <img src="./img/linkedin.png" />
+          </a>
+          <a class="FirtsNav-Iconss" href="https://github.com/ClaraSantosmf">
+            <img class="FirtsNav-Icons" src="./img/github.png"
+          /></a>
+        </div>
+      </nav>
       <div class="NameApresentation">
         <div class="NameApresentation-Subtitle">
           <h1>Olá, eu sou a Clara Santos</h1>
@@ -28,7 +52,7 @@
       </div>
       <div class="Secction2">
         <div class="secctions">
-          Sobre a Clara
+          <a href="#AboutMe">Sobre a Clara</a>
           <img src="./img/ABoutMe.png" />
         </div>
         <div class="secctions">
@@ -49,10 +73,10 @@
         <p>
           Eu sou natural da Paraíba, uma cidade quente e banhada pelo mar. Um
           local de lindos visuais e ambientes criativos. A filha mais nova de
-          seis irmãos, algo que me trouxe o espirito de comunidade e o constante
-          trabalho em equipe. Por conta de um espirito nômade, passei por
-          diversas cidades, me permitindo tomar contato com diferentes culturas
-          e desenvolver a tolerâcia, empatia e tênacidade.
+          seis irmãos, algo que me trouxe o contato constante com o trabalho em
+          equipe. Por conta do espírito nômade, passei por diversas cidades, o
+          que permitiu ter contato com diferentes culturas, desenvolver a
+          tolerâcia, empatia e tênacidade.
         </p>
       </div>
       <h3>Skills</h3>
@@ -70,7 +94,7 @@
           </p>
         </div>
         <div class="Skills-Python">
-          <label>PYTHON</label>
+          <label class="title">PYTHON</label>
           <div class="progress-label">30%</div>
           <progress max="100" value="30">30%></progress>
           <p>
@@ -80,34 +104,50 @@
         </div>
         <div class="Skills-DataBase">
           <label class="title">BANCO DE DADOS</label>
-          <div class="progress-label">30%</div>
+          <div class="progress-label">60%</div>
           <progress max="100" value="60"></progress>
           <p>
             Estudo a lógica SQL por meio do gerenciamento de bancos de dados
             relacionados Postgres.
           </p>
         </div>
-        <div class="Skills-ProgrammingLogic">
-          <label class="title">LÓGICA</label>
-          <div class="progress-label">30%</div>
-          <progress max="100" value="50"></progress>
+        <div class="Skills-SGSI">
+          <label class="title">Segurança da Informação</label>
+          <div class="progress-label">80%</div>
+          <progress max="100" value="80"></progress>
           <p>
-            Estudo constantes para melhorar a lógica de programação. O tempo
-            todo!
+            Pós-graduada em Direito Digital e LGPD. Certificada EXIN em
+            Information Security FOundation based on ISO/IEC 27001
           </p>
         </div>
       </div>
       <div class="Experience">
-        Experiências - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Mollitia, inventore aut natus sed ducimus fuga suscipit earum dolorem
-        minima, accusamus sit expedita saepe, cupiditate blanditiis harum animi
-        nihil molestias? A!
+        <h3>Experiências</h3>
+        <ul>
+          <li><strong>2022</strong> Estagiária BuserTech fullsteck</li>
+          <li>
+            <strong>2021</strong> Pesquisadora assistente de doutorado da USP
+            sobre Online Dispute Resolution. Advogada da Vice-Presidência de
+            Arbitragem, desenvolvendo jurimetria junto ao banco de dados de 23
+            anos.
+          </li>
+          <li>
+            <strong>2020</strong> Formada em Direito pela UFPB. Estagiária
+            jurídica no escritório ToledoMarchetti (São Paulo), área de
+            Arbitragem e Construção Civil.
+          </li>
+          <li>
+            <strong>2019</strong> Coordenadora do Núcleo de Estudos em Métodos
+            Extrajudiciais de Soluções de Conflitos - UFPB
+          </li>
+        </ul>
       </div>
       <div class="Projects">
-        Projetos... Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Laudantium ipsum vel neque vero exercitationem voluptate incidunt quidem
-        dolores mollitia? Doloremque dicta molestias optio, eaque hic quam earum
-        veniam fugit facere!
+        <h3>Projetos</h3>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+        ipsum vel neque vero exercitationem voluptate incidunt quidem dolores
+        mollitia? Doloremque dicta molestias optio, eaque hic quam earum veniam
+        fugit facere!
       </div>
     </div>
   </body>
