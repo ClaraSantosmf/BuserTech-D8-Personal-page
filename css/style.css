@@ -6,7 +6,7 @@ body {
 }
 
 .FixedContainer {
-  width: 90%;
+  max-width: 1115px;
   background-color: #fdfcdc;
   margin: auto;
   margin-top: 10%;
@@ -34,7 +34,7 @@ nav {
 }
 
 .IconGraound img {
-  width: 20%;
+  width: 36%;
   margin-left: 6%;
   margin-right: auto;
 }
@@ -148,7 +148,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 @media only screen and (max-width: 470px) {
@@ -282,18 +282,104 @@ li strong {
   font-family: "Montserrat Alternates";
 }
 
-.Cars {
-  width: 100%;
+.Projects {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  text-align: justify;
 }
 
-.carrossel {
+.Projects-Programmer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Projects-Huskey {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.Projects-travel {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Projects p {
+  font-size: 1.5em;
+  width: 50%;
+  justify-content: center;
+}
+.Projcs {
+  border-radius: 10%;
+  width: auto;
   background-color: #fff;
   flex-direction: column;
   display: flex;
-  align-self: flex-start;
-  border: 2px solid #f07167;
+  border: 5px #f07167 solid;
 }
 
-.carrossel img {
-  width: 60%;
+.Projcs strong,
+.Projcs-Huskey strong {
+  color: #fff;
+  font-weight: 600;
+  background-color: #53b6d1;
+  border-radius: 0px 0px 25px 25px;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Projcs-Huskey {
+  border: 5px #f07167 solid;
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  border-radius: 10%;
+  box-sizing: border-box;
+}
+
+.Projcs img {
+  border-radius: 10%;
+  width: 300px;
+}
+
+.Projcs-Huskey img {
+  border-radius: 10%;
+  width: 300px;
+  padding: 15%;
+  box-sizing: border-box;
+}
+
+footer {
+  border-radius: 0px 0px 60px 60px;
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5261292016806722) 0%,
+    rgba(255, 255, 255, 0.9154849439775911) 34%,
+    rgba(51, 160, 179, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  align-items: center;
+}
+
+.Footer-IconGraound img {
+  width: 25%;
+  margin-left: 6%;
+  margin-right: auto;
+}
+
+footer p {
+  color: #fff;
+  font-weight: bold;
+  align-self: flex-end;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-left: auto;
 }
