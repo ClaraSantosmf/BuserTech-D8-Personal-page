@@ -1,0 +1,113 @@
+@media only screen and (max-width: 750px) {
+  .FixedContainer {
+    max-width: 80%;
+    min-width: 350px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .IconGraound img {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  .FirtsNav-Iconss img {
+    width: 10%;
+  }
+
+  .NameApresentation {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .NameApresentation-Subtitle {
+    width: 100%;
+  }
+
+  .NameApresentation-Subtitle h1 {
+    font-size: 1.6em;
+  }
+  .NameApresentation-Subtitle h2 {
+    font-size: 1.3em;
+  }
+  .NameApresentation img {
+    align-self: center;
+    margin: 5%;
+    width: 60%;
+  }
+
+  .Bar1,
+  .Bar2,
+  .Bar3 {
+    margin: 1em 2em;
+  }
+
+  .secctions {
+    font-size: 1em;
+    width: 45%;
+    padding: 1%;
+    justify-content: space-around;
+  }
+
+  .AboutMe h3,
+  h3 {
+    font-size: 1.5em;
+  }
+  .AboutMe p {
+    margin: auto;
+    text-align: justify;
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+  .title {
+    font-size: 0.9em;
+  }
+
+  .Skills-HTMLCSS,
+  .Skills-Python,
+  .Skills-DataBase,
+  .Skills-SGSI {
+    width: 100%;
+    padding: 2%;
+    text-align: justify;
+  }
+
+  .Skills-HTMLCSS p,
+  .Skills-Python p,
+  .Skills-DataBase p,
+  .Skills-SGSI p {
+    font-size: 0.9em;
+    width: 100%;
+  }
+
+  .Skills-SGSI .title {
+    text-align: left;
+  }
+
+  ul {
+    font-size: 1.3em;
+    margin-left: 1%;
+    text-align: justify;
+  }
+
+  .Projects-Programmer,
+  .Projects-Huskey,
+  .Projects-travel,
+  .Projects-Teacher {
+    flex-direction: column;
+  }
+
+  .Projects-Programmer p,
+  .Projects-Huskey p,
+  .Projects-travel p,
+  .Projects-Teacher p {
+    flex-direction: column;
+    font-size: 1.3em;
+    width: 100%;
+    margin: 10%;
+  }
+
+  .Footer-IconGraound img {
+    width: 45%;
+  }
+}
